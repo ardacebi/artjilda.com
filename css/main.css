@@ -160,8 +160,8 @@ a, a:focus, a:hover {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
-  color: #222222;
+  font-family: 'Roboto Mono', monospace;
+  color: #fff;
   line-height: 1.2em !important;
   margin-bottom: 0;
   margin-top: 0;
@@ -2053,11 +2053,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   background: #fff;
+  box-shadow: -2px 2px 4px 0px rgba(0, 0, 0, 0.3);
 }
 
 #header.header-scrolled {
   transition: all 0.5s;
-  box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
+  box-shadow: -21.213px 21.213px 30px 0px rgba(0, 0, 0, 0.3);
 }
 
 #header.header-scrolled .main-menu {
@@ -2145,7 +2146,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 8px 0px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #222;
+  color: #fff;
   font-weight: 500;
   font-size: 12px;
   text-transform: uppercase;
@@ -2321,9 +2322,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .p1-gradient-bg, .banner-left .primary-btn, .home-about-right .primary-btn, .facts-area, .thumb .overlay-bg, .price-area .single-price:hover, .brands-area, .about-banner, .sb_bar {
-  background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-  background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  background: #494949;
+  background: #494949;
+  background: #494949;
 }
 
 .p1-gradient-color, .single-services:hover .lnr {
